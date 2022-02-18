@@ -1,0 +1,32 @@
+.container {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 150px;
+  align-items: center;
+}
+
+.container p {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container input {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+.container input::placeholder {
+  font-size: 1rem;
+}
+
+.container input:focus {
+  width: 30%;
+}

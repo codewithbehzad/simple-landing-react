@@ -1,0 +1,16 @@
+.container {
+  margin: 60px;
+  text-align: center;
+}
+.container h3 {
+  color: #505050;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container img {
+  width: 200px;
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+

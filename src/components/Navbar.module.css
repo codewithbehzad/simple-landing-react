@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b5998;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: auto 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list li {
+  cursor: pointer;
+  margin-right: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.list li:hover {
+  color: #8b9dc3;
+}
+
+select {
+  border-radius: 2px;
+  padding: 0 2px;
+  background-color: #3b5998;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  outline: 0;
+}
+select:focus {
+  background-color: #3b5998;
+}
